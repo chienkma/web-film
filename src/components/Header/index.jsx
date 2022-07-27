@@ -3,9 +3,6 @@ import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
-import TextField from "@mui/material/TextField";
 import { useState } from "react";
 import SignUp from "../../features/Auth/SignUp";
 function Header() {
@@ -46,7 +43,6 @@ function Header() {
         <span className='px-4'>Dang nhap</span>
       </button>
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>Subscribe</DialogTitle>
         <DialogContent>
           <SignUp />
         </DialogContent>
