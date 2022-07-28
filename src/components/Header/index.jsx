@@ -1,4 +1,5 @@
 import { AccountCircle, Bookmark, Search } from "@mui/icons-material";
+import { ButtonBase, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
